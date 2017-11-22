@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Project 01</title>
+        <meta name="description" content="My first html project"/>
+        <meta name="author" content="Milazu"/>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <h1>MY FIRST PAGE</h1>
+        <p>This is the first html project i do.</p>
+        <h2>Click the link for an amazing experience</h2>
+        <a>href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"</a>
+    </body>
+</html>
