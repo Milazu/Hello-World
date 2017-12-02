@@ -1,0 +1,192 @@
+{
+        box-sizing: border-box;
+    }
+    html,body {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html {
+        font-family: "Lucida Sans", sans-serif;
+    }
+    body {
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: transparent;
+        font-family: 'Roboto', sans-serif;
+
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+    }
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 65%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    .col-13{width: 50%;}
+    .data-field {
+        text-align: right;
+        background-color: white;
+        color: green;
+        padding: 10px 0 10px 10px;
+        font-size: 2.6em;
+        width: 230px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .num{
+        font-size: 1.5em;
+    }
+    .data-label {
+        font-size: 1.8em;
+    }
+    .data-label:after {
+        content:"\a\a";
+        white-space: pre;
+    }
+    .big-label {
+        background-color: green;
+        color: white;
+        padding: 15px;
+        font-size: 6.2em;
+        border-radius: 15px;
+        text-align: end;
+        position: absolute;
+        top: 720px;
+        left: 650px;
+    }
+    .blank_row {
+        height: 10px !important;
+    }
+    .pct:after {
+        content:"%";
+
+        background-color: green;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: white;
+        padding: 10px;
+    }
+    .company-logo {
+        max-width: 25vw;
+        max-height: 25vh;
+    }
+    .float-left {
+        float: left;
+    }
+    .green-pct {
+        background-color: green;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: white;
+        padding: 10px;
+        font-size: 2em;
+    }
+    .green-text {
+        color: green;
+        font-weight: bold;
+        font-size: 2em;
+        width: 30%;
+    }
+
+    .shaded-background {
+        background-image: linear-gradient(rgba(53, 53, 53, 0.2),rgba(53, 53, 53, 0.2));
+    }
+    .green-header-left {
+        border-top-left-radius: 15px;
+    }
+    .green-header {
+        background-color: green;
+        color: white;
+    }
+    .green-header-right {
+        border-top-right-radius: 15px;
+    }
+    .table-data-field {
+        display: block;
+        color: green;
+        font-size: 3em;
+        background-image: linear-gradient(rgba(120, 120, 120, 0.5),rgba(120, 120, 120, 0.5));
+    }
+    .slide {
+        height: 100%;
+    }
+    .upper {
+        position: relative;
+        height: 55%;
+    }
+    .lower {
+        height: 45%;
+    }
+    .quarter {
+        height: 25%;
+    }
+    #mid-label {
+        color: green;
+        padding: 10px;
+        font-size: 5em;
+        text-align: end;
+        width: 30%;
+        position: absolute;
+        top: 250px;
+        left: 550px;
+    }
+    #top-label{
+        color: green;
+        padding: 10px;
+        font-size: 5em;
+        text-align: end;
+        width: 20%;
+        position: absolute;
+        top: 100px;
+        left: 850px;
+    }
+
+    .bottom-aligned {
+        position: absolute;
+        bottom: 20;
+    }
+    .centered {
+        display: flex;
+        align-items: center;
+    }
+    .data-field:empty {
+        display: none !important;
+    }
+    .data-field:empty + .green-pct {
+        display: none !important;
+    }
+    span:empty + span {
+        display: none !important;
+    }
+    .big-label:empty {
+        display: none;
+    }
+
+    #infoContainer {
+        font-size: 75%;
+        color: red;
+    }
