@@ -174,8 +174,8 @@
     #top-label{
         color: blue;
         padding: 10px;
-        font-size: 5em;
-        text-align: end;
+        font-size: 12vw;
+        text-align: center;
         width: 20%;
         position: absolute;
         top: 100px;
