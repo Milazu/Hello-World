@@ -63,6 +63,7 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    .col-13{width: 50%;}
     .data-field {
         text-align: right;
         background-color: white;
@@ -171,7 +172,7 @@
         left: 550px;
     }
     #top-label{
-         color: green;
+        color: green;
         padding: 10px;
         font-size: 5em;
         text-align: end;
@@ -213,6 +214,9 @@
     <div class="row centered upper">
         <div class="col-9">
             <span id="mid-label" class="bottom-aligned">Rendimiento Fabrica</span>
+        </div>
+          <div class="col-13">
+            <span id="top-label" class="bottom-aligned">TEST</span>
         </div>
 
         <div class="col-3">
