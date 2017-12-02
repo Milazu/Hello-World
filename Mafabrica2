@@ -265,6 +265,7 @@
     $('#head3').html(prefs.getString("h3"));
     $('#head4').html(prefs.getString("h4"));
     $('#head5').html(prefs.getString("h5"));
+    $('#head5').html(prefs.getString("h6"));
     var ovenTxt = prefs.getString("oven");
 
     function getFile(filename, action) {
