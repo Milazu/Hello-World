@@ -7,6 +7,7 @@
        <UserPref name="h3" display_name="Table Header 3" datatype="string" />
        <UserPref name="h4" display_name="Table Header 4" datatype="string" />
        <UserPref name="h5" display_name="Table Header 5" datatype="string" />
+       <UserPref name="h6" display_name="Table Header 6" datatype="string" />
         <UserPref name="oven" display_name="Oven" datatype="string" />
        <UserPref name="f" display_name="Fabricated" datatype="string" />
        <UserPref name="r" display_name="Rejected" datatype="string" />
