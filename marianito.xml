@@ -172,7 +172,7 @@
         left: 550px;
     }
     #top-label{
-        color: green;
+        color: blue;
         padding: 10px;
         font-size: 5em;
         text-align: end;
@@ -180,7 +180,7 @@
         position: absolute;
         top: 100px;
         left: 850px;
-        font-family: Arial;
+        bold;
     }
 
     .bottom-aligned {
