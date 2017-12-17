@@ -85,12 +85,12 @@
     }
     .data-label {
         font-size: 1.8em;
-	border-radius: 10px;
-	border: 2px solid #17700e;
     }
     .data-label:after {
         content:"\a\a";
         white-space: pre;
+	border-radius: 10px;
+	border: 2px solid #17700e;
     }
     .big-label {
         background-color: #17700e;
