@@ -22,7 +22,6 @@
         height: 100%;
         margin: 0px;
         padding: 0px;
-	margin-bottom: 50px;
     }
 
     html {
@@ -32,7 +31,7 @@
         overflow-y: hidden;
         overflow-x: hidden;
         background-color: transparent;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Anton', sans-serif;
 
         background-repeat: no-repeat;
         background-position: 50% 0;
@@ -41,8 +40,6 @@
         -moz-background-size: cover;
         -webkit-background-size: cover;
         background-size: cover;
-
-	margin-bottom: 50px;
 
     }
     .row::after {
@@ -69,8 +66,8 @@
     .col-13{width: 60%;}
     .data-field {
         text-align: right;
-        background-color: #f6fcf4;
-        color: #17700e;
+        background-color: #c1feb6;
+        color: #f6fcf4;
         padding: 10px 0px 10px 0px;
 	margin-bottom: 10x;
 	margin-right: 70px;
@@ -81,9 +78,9 @@
     }
     .num{
         font-size: 5em;
-	color:#17700e;
-	background-color:#f6fcf4;
-	border: 1px solid #17700e;
+	color:#f6fcf4;
+	background-color:#c1feb6;
+	border: 1px solid #f6fcf4;
 	border-radius: 10px;
     }
     .data-label {
@@ -92,10 +89,9 @@
     .data-label:after {
         content:"\a\a";
         white-space: pre;
-
     }
     .big-label {
-        background-color: #17700e;
+        background-color: green;
         color: white;
         padding: 15px;
         font-size: 6.2em;
@@ -103,7 +99,7 @@
         text-align: end;
         position: absolute;
         top: 720px;
-        left: 150px;
+        left: 350px;
     }
     .blank_row {
         height: 20px !important;
@@ -111,10 +107,9 @@
     .pct:after {
         content:"%";
 
-        background-color: #17700e;
+        background-color: green;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-	border: 1px solid #17700e;
         color: white;
         padding: 10px;
 
@@ -127,29 +122,28 @@
         float: left;
     }
     .green-pct {
-        background-color: #17700e;
+        background-color: green;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-	border: 1px solid #17700e:
         color: white;
         padding: 10px;
         font-size: 2em;
     }
     .green-text {
-        color: #17700e;
+        color: green;
         font-weight: bold;
         font-size: 2em;
         width: 30%;
     }
 
     .shaded-background {
-        background-image: linear-gradient(rgba(53, 53, 53, 0),rgba(53, 53, 53, 0));
+        background-image: linear-gradient(rgba(53, 53, 53, 0.2),rgba(53, 53, 53, 0.2));
     }
     .green-header-left {
         border-top-left-radius: 15px;
     }
     .green-header {
-        background-color: #17700e;
+        background-color: green;
         color: white;
     }
     .green-header-right {
@@ -157,7 +151,7 @@
     }
     .table-data-field {
         display: block;
-        color: 17700e;
+        color: green;
         font-size: 3em;
         background-image: linear-gradient(rgba(120, 120, 120, 0.5),rgba(120, 120, 120, 0.5));
     }
@@ -175,23 +169,25 @@
         height: 25%;
     }
     #mid-label {
-        color: #17700e;
+        color: green;
         padding: 10px;
         font-size: 5em;
         text-align: end;
         width: 30%;
         position: absolute;
         top: 250px;
-        margin-left: 650px;
+        left: 350px;
     }
     #top-label{
-        color: #17700e;
+        color: ;
         padding: 10px;
         font-size: 5em;
-        text-align: end;
-        width: 30%;
+        text-align: center;
+        width: 20%;
         position: absolute;
         top: 100px;
+        left: 850px;
+        border: solid 1px blue;
     }
 
     .bottom-aligned {
@@ -207,8 +203,6 @@
     }
     .data-field:empty + .green-pct {
         display: none !important;
-	border: 1px solid #17700e;
-	border-radius: 10px;
     }
     span:empty + span {
         display: none !important;
@@ -221,14 +215,8 @@
         font-size: 75%;
         color: red;
     }
-	.data-field{
-		border: 2px solid #17700e;
-		border-top-left-radius: 10px;
-		border-bottom-left-radius: 10px;
- 	}
-
 </style>
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
 <body>
 <div class="slide">
     <div class="row centered upper">
@@ -240,7 +228,7 @@
         </div>
 
         <div class="col-3">
-            <table border="0" class="tabla">
+            <table border="0">
                 <tr>
                     <td colspan="2">
                         <label class="data-label" id="date">Fecha</label>
@@ -268,7 +256,7 @@
             <span class='big-label' id="horno-label"></span>
         </div>
         <div class="col-3">
-            <table border="0" cellpadding="5" id="data-table" class="tabla">
+            <table border="0" cellpadding="5" id="data-table">
             </table>
         </div>
     </div>
