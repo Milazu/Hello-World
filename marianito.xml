@@ -69,7 +69,7 @@
         background-color: white;
         color: green;
         padding: 10px 0 10px 10px;
-        font-size: 2.6em;
+        font-size: 4em;
         width: 300px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
