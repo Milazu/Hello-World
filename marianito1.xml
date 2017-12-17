@@ -204,7 +204,7 @@
     }
     .data-field:empty + .green-pct {
         display: none !important;
-	border: 1px solid #17700e:
+	border: 1px solid #17700e;
 	border-radius: 10px;
     }
     span:empty + span {
@@ -218,11 +218,10 @@
         font-size: 75%;
         color: red;
     }
-	
-	.data-label{
-		border: 1px solid #17700e;
-		border-radius: 10px;
-	}
+	.tabla{
+		border: 1px solid;
+ 	}
+
 </style>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <body>
@@ -236,7 +235,7 @@
         </div>
 
         <div class="col-3">
-            <table border="0">
+            <table border="0" class="tabla">
                 <tr>
                     <td colspan="2">
                         <label class="data-label" id="date">Fecha</label>
@@ -264,7 +263,7 @@
             <span class='big-label' id="horno-label"></span>
         </div>
         <div class="col-3">
-            <table border="0" cellpadding="5" id="data-table">
+            <table border="0" cellpadding="5" id="data-table" class="tabla">
             </table>
         </div>
     </div>
