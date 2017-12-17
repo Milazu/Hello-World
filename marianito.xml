@@ -169,7 +169,7 @@
         width: 30%;
         position: absolute;
         top: 250px;
-        left: 550px;
+        left: 150px;
     }
     #top-label{
         color: blue;
