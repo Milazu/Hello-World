@@ -218,6 +218,11 @@
         font-size: 75%;
         color: red;
     }
+	
+	.data-label{
+		border: 1px solid #17700e;
+		border-radius: 10px;
+	}
 </style>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <body>
