@@ -85,7 +85,7 @@
         white-space: pre;
     }
     .big-label {
-        background-color: green;
+        background-color: black;
         color: white;
         padding: 15px;
         font-size: 6.2em;
