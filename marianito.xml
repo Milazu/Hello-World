@@ -69,8 +69,8 @@
         background-color: white;
         color: green;
         padding: 10px 0 10px 10px;
-        font-size: 8em;
-        width: 900px;
+        font-size: 6em;
+        width: 400px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
@@ -85,7 +85,7 @@
         white-space: pre;
     }
     .big-label {
-        background-color: black;
+        background-color: green;
         color: white;
         padding: 15px;
         font-size: 6.2em;
