@@ -68,7 +68,7 @@
         text-align: right;
         background-color: white;
         color: green;
-        padding: 10px 20px 10px 20px;
+        padding: 100px 200px 100px 200px;
         font-size: 6em;
         width: 400px;
         border-top-right-radius: 5px;
@@ -76,6 +76,7 @@
     }
     .num{
         font-size: 5em;
+	backgroufn-color:white;
     }
     .data-label {
         font-size: 1.8em;
