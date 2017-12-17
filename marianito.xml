@@ -93,7 +93,7 @@
         text-align: end;
         position: absolute;
         top: 720px;
-        left: 650px;
+        left: 350px;
     }
     .blank_row {
         height: 10px !important;
