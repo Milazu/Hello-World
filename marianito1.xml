@@ -68,9 +68,9 @@
         text-align: right;
         background-color: white;
         color: green;
-        padding: 10px 10px 10px 0px;
+        padding: 10px 0px 10px 0px;
 	margin-bottom: 10x;
-	margin-right: 30px;
+	margin-right: 70px;
         font-size: 6em;
         width: 400px;
         border-top-right-radius: 5px;
