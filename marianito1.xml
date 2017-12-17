@@ -41,6 +41,8 @@
         -webkit-background-size: cover;
         background-size: cover;
 
+	margin-bottom: 50px;
+
     }
     .row::after {
         content: "";
@@ -140,7 +142,7 @@
     }
 
     .shaded-background {
-        background-image: linear-gradient(rgba(53, 53, 53, 0.2),rgba(53, 53, 53, 0.2));
+        background-image: linear-gradient(rgba(53, 53, 53, 0),rgba(53, 53, 53, 0));
     }
     .green-header-left {
         border-top-left-radius: 15px;
