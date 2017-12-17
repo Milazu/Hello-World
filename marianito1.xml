@@ -66,8 +66,8 @@
     .col-13{width: 60%;}
     .data-field {
         text-align: right;
-        background-color: #c1feb6;
-        color: #f6fcf4;
+        background-color: #f6fcf4;
+        color: #c1feb6;
         padding: 10px 0px 10px 0px;
 	margin-bottom: 10x;
 	margin-right: 70px;
@@ -78,9 +78,9 @@
     }
     .num{
         font-size: 5em;
-	color:#f6fcf4;
-	background-color:#c1feb6;
-	border: 1px solid #f6fcf4;
+	color:#c1feb6;
+	background-color:#f6fcf4;
+	border: 1px solid #c1feb6;
 	border-radius: 10px;
     }
     .data-label {
