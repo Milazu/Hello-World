@@ -67,7 +67,7 @@
     .data-field {
         text-align: right;
         background-color: #c1feb6;
-        color: #17700e;
+        color: #f6fcf4;
         padding: 10px 0px 10px 0px;
 	margin-bottom: 10x;
 	margin-right: 70px;
@@ -78,9 +78,9 @@
     }
     .num{
         font-size: 5em;
-	color:#17700e;
+	color:#f6fcf4;
 	background-color:#c1feb6;
-	border: 1px solid #17700e;
+	border: 1px solid #f6fcf4;
 	border-radius: 10px;
     }
     .data-label {
@@ -176,7 +176,7 @@
         width: 30%;
         position: absolute;
         top: 250px;
-        left: 150px;
+        left: 350px;
     }
     #top-label{
         color: blue;
