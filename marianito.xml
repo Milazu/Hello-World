@@ -76,7 +76,7 @@
     }
     .num{
         font-size: 5em;
-	backgroufn-color:white;
+	background-color:white;
     }
     .data-label {
         font-size: 1.8em;
