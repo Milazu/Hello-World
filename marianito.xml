@@ -70,7 +70,7 @@
         color: green;
         padding: 10px 0 10px 10px;
         font-size: 2.6em;
-        width: 230px;
+        width: 300px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
@@ -96,7 +96,7 @@
         left: 350px;
     }
     .blank_row {
-        height: 10px !important;
+        height: 20px !important;
     }
     .pct:after {
         content:"%";
@@ -106,6 +106,7 @@
         border-bottom-right-radius: 5px;
         color: white;
         padding: 10px;
+
     }
     .company-logo {
         max-width: 25vw;
