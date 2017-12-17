@@ -127,6 +127,7 @@
         background-color: #17700e;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
+	border: 1px solid #17700e:
         color: white;
         padding: 10px;
         font-size: 2em;
@@ -203,6 +204,8 @@
     }
     .data-field:empty + .green-pct {
         display: none !important;
+	border: 1px solid #17700e:
+	border-radius: 10px;
     }
     span:empty + span {
         display: none !important;
