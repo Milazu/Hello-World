@@ -1,0 +1,45 @@
+body{
+	font-family: Spectral SC;
+	text-align: center;
+	margin:10px;
+	margin-top: 50px;
+	background-color: #EFE8D7;
+}
+
+h1{
+	font-size: 60px;
+	font-style: bold;
+	color: #302814;
+	border: solid 8px #302814;
+}
+
+h2{
+	font-size: 40px;
+	color:#9C7C2B;
+}
+
+p{
+	font-size: 24px;
+	text-align: center;
+	color:black;
+	border: 3px rgb(15,54,88);
+}
+
+#pie{
+	font-size: 20px;
+	text-align: right;
+	margin-right: 50px;
+	font-style: italic;
+	color: #D2B15C;
+	border: none;
+}
+#w::first-letter{
+	font-size: 150%;
+}
+
+aside{
+	left
+}
+
+
+
